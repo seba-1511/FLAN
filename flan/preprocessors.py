@@ -219,7 +219,7 @@ def get_flan_formatter(inputs_pattern, targets_pattern):
               'inputs': inputs_pattern,
               'targets': targets_pattern,
           }),
-      reformat_with_flan_dialog_prompt,
+      # reformat_with_flan_dialog_prompt,
   ]
 
 
@@ -232,7 +232,7 @@ def get_dialog_formatter(inputs_pattern, targets_pattern):
               'inputs': inputs_pattern,
               'targets': targets_pattern,
           }),
-      reformat_with_dialog_prompt,
+      # reformat_with_dialog_prompt,
   ]
 
 
